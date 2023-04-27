@@ -1,7 +1,7 @@
-import Home from '~/pages/Home';
-import Following from '~/pages/Following';
-import Upload from '~/pages/Upload';
-import { SingleLayout } from '~/components/layouts';
+import Home from '@/pages/Home';
+import Following from '@/pages/Following';
+import Upload from '@/pages/Upload';
+import { SingleLayout } from '@/components/layouts';
 
 const publicRoutes = [
     { path: '/', component: Home },
